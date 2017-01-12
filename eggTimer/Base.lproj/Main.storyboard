@@ -35,22 +35,29 @@
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="+10" id="c1w-WU-cT4"/>
+                                    <barButtonItem title="-10" id="c1w-WU-cT4"/>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="Rg5-4C-r91"/>
                                     <barButtonItem title="Reset" id="nC1-QZ-HHY"/>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="VbS-Fa-0IC"/>
-                                    <barButtonItem title="-10" id="9wB-bU-ab7"/>
+                                    <barButtonItem title="+10" id="9wB-bU-ab7"/>
                                 </items>
                             </toolbar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Count Down Timer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f7g-6R-2wH">
-                                <rect key="frame" x="116" y="306" width="143" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="210" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KN9-wL-iNZ">
+                                <rect key="frame" x="122" y="280.5" width="131" height="106"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="131" id="GlD-8p-ZA3"/>
+                                    <constraint firstAttribute="height" constant="106" id="ddq-ao-N9V"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KN9-wL-iNZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="G2K-Fh-Q2r"/>
+                            <constraint firstItem="KN9-wL-iNZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lFU-rB-Vhc"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
